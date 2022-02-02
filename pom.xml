@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.luv2code</groupId>
+    <artifactId>hibernateAdvancedDevelopmentTechniques</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+
+        <module>hibernate-hb-01-map-collections-set</module>
+        <module>hibernate-hb-02-map-collections-list</module>
+        <module>hibernate-hb-03-map-collections-map</module>
+        <module>hibernate-hb-04-map-collections-sortedset</module>
+        <module>hibernate-hb-05-map-collections-sortedmap</module>
+        <module>hibernate-hb-map-components</module>
+        <module>hibernate-hb-map-enum</module>
+        <module>hibernate-hb-inheritance-01-singletable</module>
+        <module>hibernate-hb-inheritance-02-tableperclass</module>
+        <module>hibernate-hb-inheritance-03-joined</module>
+        <module>hibernate-hb-inheritance-04-mappedsuperclass</module>
+    </modules>
+
+</project>
